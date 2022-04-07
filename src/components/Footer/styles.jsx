@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-const FooterBase = styled.footer`
+// eslint-disable-next-line import/prefer-default-export
+export const FooterBase = styled.footer`
   background: var(--black);
   border-top: 2px solid var(--primary);
   padding-left: 16px;
@@ -13,5 +14,3 @@ const FooterBase = styled.footer`
     margin-bottom: 50px;
   }
 `;
-
-export default FooterBase;
